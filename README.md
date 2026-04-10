@@ -1,23 +1,29 @@
 # runti-test
 
-This repository is a static site and can be published directly with GitHub Pages.
+This repository is a fork used to provide a direct public link for the original static page project.
 
-## Expected public URL
+## Public link
 
-After GitHub Pages is enabled, the site URL should be:
+The current GitHub Pages deployment for this fork is:
 
-`https://cheng-muyun.github.io/runti-test/`
+`https://southking372.github.io/runti-test/`
 
-## Publish steps
+## Source and attribution
 
-1. Push this repository to GitHub.
-2. Open `Settings -> Pages`.
-3. Set the source to `GitHub Actions`.
-4. Wait for the `Deploy static site to GitHub Pages` workflow to finish.
-5. Open the public URL above.
+- Original project repository: `https://github.com/cheng-muyun/runti-test`
+- Original author: `@cheng-muyun`
+- This fork does not claim authorship of the original page content.
+- The main additional work in this fork is GitHub Pages deployment configuration for easier external access.
 
-## Notes
+## Thanks
+
+Thanks to the original author for creating and sharing this project.
+
+If the original author would like the attribution wording adjusted, extra credits added, or this deployment removed, this fork can be updated accordingly.
+
+## Deployment notes
 
 - The site is a single `index.html` file, so no build step is required.
+- GitHub Pages is deployed through GitHub Actions.
 - The page currently depends on external CDNs for fonts, icons, and Chart.js.
 - If the main audience is in mainland China, consider replacing those CDN links with local files later.
